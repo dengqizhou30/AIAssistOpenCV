@@ -60,5 +60,5 @@ https://github.com/dengqizhou30/HIDDriver <br>
 
 **五、游戏截图：**<br>
 穿越火线游戏截图：<br>
-![blockchain](https://github.com/dengqizhou30/AIAssistOpenCV/blob/main/Data/img/chuanyuehuoxian21.png)</br>
-![blockchain](https://github.com/dengqizhou30/AIAssistOpenCV/blob/main/Data/img/chuanyuehuoxian2.png)</br>
+![blockchain](https://github.com/dengqizhou30/AIAssistOpenCV/blob/master/Data/img/chuanyuehuoxian21.png)</br>
+![blockchain](https://github.com/dengqizhou30/AIAssistOpenCV/blob/master/Data/img/chuanyuehuoxian2.png)</br>
