@@ -1,0 +1,40 @@
+﻿https://tensorflow.google.cn/guide/saved_model#show_command
+
+
+https://github.com/serizba/cppflow
+https://serizba.github.io/cppflow/quickstart.html
+https://github.com/dhiegomaga/cppflow/blob/master/examples/savedmodel/main.cpp
+
+
+
+
+
+saved_model_cli show --dir /tmp/saved_model_dir --all
+
+
+
+启动tf1.X容器：
+docker pull tensorflow/tensorflow:1.15.5
+docker run --name tf1 -it -v /ai:/ai tensorflow/tensorflow:1.15.5 /bin/bash
+
+docker start tf1
+docker exec -i -t  tf1 /bin/bash
+
+
+或者启用tf2.x容器：
+docker pull tensorflow/tensorflow:latest-jupyter
+docker run --name tf2 -it -v /ai:/ai tensorflow/tensorflow:latest-jupyter /bin/bash
+
+docker start tf2
+docker exec -i -t  tf2 /bin/bash
+
+docker stop tf2
+docker rm tf2
+
+
+查看模型信息， 确认模型的输入输出：
+saved_model_cli show --dir /ai/efficientdet_d0 --all
+saved_model_cli show --dir /ai/efficientdet_v2 --all
+saved_model_cli show --dir /ai/efficientdet-lite0 --all
+
+saved_model_cli show --dir /ai/ssd_mobilenet_v2 --all

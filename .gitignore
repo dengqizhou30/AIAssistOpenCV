@@ -1,0 +1,19 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs
+/AIAssist/x64
+/AIAssistLib/x64
+/Data/bin
+/Data/model/mobilenet/bak
+/Data/model/mobilenet/ssd_mobilenet_v3.pbtxt
+/Data/model/mobilenet/ssd_mobilenet_v3.pb
+/Data/obj
+/Debug
+/HIDDriver/x64
+/HIDDriverLib/x64
+/HIDDriverLibTest/x64
+/OpencvTest/x64
+/x64
+/AIAssistC
