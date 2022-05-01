@@ -48,7 +48,7 @@ public:
     //是否启用图像检测
     bool detectImg = true;
     //用户配置的实际检测宽度和高度
-    int detectWidth = 300, detectHeight = 220;
+    int detectWidth = 360, detectHeight = 260;
     //游戏进程占用的原始屏幕区域
     cv::Rect screenRect = {0,0,GetSystemMetrics(SM_CXSCREEN),GetSystemMetrics(SM_CYSCREEN) };
     //裁剪后的实际图像检查区域
