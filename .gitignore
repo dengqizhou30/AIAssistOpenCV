@@ -11,9 +11,7 @@
 /Data/model/mobilenet/ssd_mobilenet_v3.pb
 /Data/obj
 /Debug
-/HIDDriver/x64
-/HIDDriverLib/x64
-/HIDDriverLibTest/x64
+/Release
 /OpencvTest/x64
 /x64
-/AIAssistC
+
