@@ -19,7 +19,7 @@ using namespace std;
 
 DXGIManager g_DXGIManager;
 
-int main()
+int main_bak68()
 {
     HDC m_screenDC;
     HDC m_memDC;
