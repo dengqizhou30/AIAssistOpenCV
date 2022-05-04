@@ -1,4 +1,6 @@
 
+**通告：本项目已发布可运行程序，包含依赖库，有兴趣的兄弟可以下载试用 https://github.com/dengqizhou30/AIAssistOpenCV/releases ；**<br><br>
+
 
 **游戏助手已发布三个项目，区别如下：**<br>
 AIAssist 是c#版的游戏游戏助手，已不再更新，感兴趣的可以参考 https://github.com/dengqizhou30/AIAssist <br>
