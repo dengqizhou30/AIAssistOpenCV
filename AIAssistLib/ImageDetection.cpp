@@ -199,7 +199,7 @@ DETECTRESULTS ImageDetection::detectImg()
                 Rect box = boxes.at(i);
 
                 //为保障项目，排除太大或者太小的模型
-                if (box.width <= 220 && box.width >= 10 && box.height <= 280 && box.height >= 10)
+                if (box.width <= 280 && box.width >= 10 && box.height <= 320 && box.height >= 10)
                 {
                     //判断是否是游戏操者本人,模型位置为屏幕游戏者位置
                     //游戏者的位置在屏幕下方靠左一点，大概 860/1920处
